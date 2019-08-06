@@ -1,6 +1,8 @@
 /* angular */
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+
 /* Third party */
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 /* app level */
@@ -17,7 +19,12 @@ import { EmpIdGetComponent } from './emp-id-get/emp-id-get.component';
     EmpIdGetComponent,
     EmpIdEditComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, SlimLoadingBarModule],
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    SlimLoadingBarModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
