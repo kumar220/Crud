@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { EmpIdAddComponent } from './emp-id-add/emp-id-add.component';
 import { EmpIdEditComponent } from './emp-id-edit/emp-id-edit.component';

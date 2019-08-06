@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {
-  NavigationCancel,
   Event,
+  NavigationCancel,
   NavigationEnd,
   NavigationError,
   NavigationStart,

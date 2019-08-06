@@ -1,16 +1,14 @@
 /* angular */
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
 /* Third party */
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
-
 /* app level */
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmpIdAddComponent } from './emp-id-add/emp-id-add.component';
-import { EmpIdGetComponent } from './emp-id-get/emp-id-get.component';
 import { EmpIdEditComponent } from './emp-id-edit/emp-id-edit.component';
+import { EmpIdGetComponent } from './emp-id-get/emp-id-get.component';
 
 @NgModule({
   declarations: [
